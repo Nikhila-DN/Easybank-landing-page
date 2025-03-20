@@ -24,6 +24,10 @@ body {
     font-family: 'Public Sans', sans-serif;
 }
 
+p{
+    line-height: 1.6rem;
+}
+
 a {
     text-decoration: none;
 }
@@ -92,7 +96,7 @@ span, p {
 .brief_details {
     display: flex;
     flex-direction: column;
-    width: 90%;
+    width: 85%;
     transform: translate(25%,0%);
 }
 
@@ -105,7 +109,7 @@ span, p {
     background: linear-gradient(to right,hsl(136, 65%, 51%), hsl(192, 70%, 51%));
     color: var(--white);
     margin:20px 0;
-    padding: 10px 40px;
+    padding: 10px 25px;
     text-align: center;
     border-radius: 40px;
     cursor: pointer;
@@ -113,9 +117,10 @@ span, p {
 }
 
 .brief_details h1 {
-    font-size: 3rem;
+    font-size: 3.8rem;
     font-weight: 400;
-    margin-bottom: 20px;
+    margin-bottom:5%;
+    color: var(--darkBlue);
 }
 
 .mockup {
@@ -142,14 +147,15 @@ span, p {
 }
 .benefit {
     position: relative;
-    padding-bottom: 20px;
+    padding-bottom: 7%;
     width: 45vw;
 }
 
 .benefit h1 {
-    font-size: 35px;
+    font-size: 3rem;
     font-weight: 300;
     margin: 20px 0;
+    color: var(--darkBlue);
 }
 
 .benefit p {
@@ -167,8 +173,9 @@ span, p {
 }
 
 .why_list > div h2 {
-    padding: 15px 0;
+    padding: 1.6rem 0;
     font-weight: 300;
+    color: var(--darkBlue);
 }
 /* END- Benifits Section */
 
@@ -180,9 +187,10 @@ span, p {
 }
 
 .latest-articles > h1 {
-    font-size: 35px;
+    font-size: 3rem;
     font-weight: 300;
-    margin-bottom: 30px;
+    margin-bottom: 5%;
+    color: var(--darkBlue);
 }
 
 .articles {
@@ -230,7 +238,7 @@ footer {
     background-color: hsl(233, 26%, 24%);
     display: flex;
     justify-content: space-between;
-    padding: 3% 10%;
+    padding: 1% 10%;
 }
 .ft-one {
     display: flex;
