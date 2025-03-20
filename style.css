@@ -30,7 +30,7 @@ a {
 
 header {
     background-color: var(--white);
-    padding: 5px 50px;
+    padding: 1% 10%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -78,6 +78,7 @@ span, p {
     color: var(--grayishBlue);
 }
 
+/* START- Details Section */
 .details {
     background-color: var(--veryLightGray);
     display: grid;
@@ -92,7 +93,7 @@ span, p {
     display: flex;
     flex-direction: column;
     width: 90%;
-    transform: translate(15%,0%);
+    transform: translate(25%,0%);
 }
 
 .request_invite_btn {
@@ -121,7 +122,7 @@ span, p {
     background: url('./images/bg-intro-desktop.svg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-x: 50px;
+    background-position-x: 110px;
     background-position-y: -80px;
     display: flex;
     justify-content: center;
@@ -130,12 +131,14 @@ span, p {
 
 .mockup-img {
     width: 80%;
-    transform: translate(140px,-50px);
+    transform: translate(180px,-50px);
 }
+/* END- Details Section */
 
+/* START- Benifits Section */
 .reason {
     background-color: var(--lightGrayishBlue);
-    padding: 100px 50px;
+    padding: 10%;
 }
 .benefit {
     position: relative;
@@ -167,9 +170,12 @@ span, p {
     padding: 15px 0;
     font-weight: 300;
 }
+/* END- Benifits Section */
 
+
+/* START- Articles Section */
 .latest-articles {
-    padding: 100px 50px;
+    padding: 10%;
     background: var(--veryLightGray);
 }
 
@@ -207,6 +213,7 @@ span, p {
     padding: 10px 0;
     cursor: pointer;
     font-weight: 700;
+    color: var(--grayishBlue);
 }
 
 .article-title:hover{
@@ -216,12 +223,14 @@ span, p {
 .card_body {
     padding: 20px;
 }
+/* END- Articles Section */
 
+/* START- Footer */
 footer {
     background-color: hsl(233, 26%, 24%);
     display: flex;
     justify-content: space-between;
-    padding: 5% 5% 6% 5%;
+    padding: 3% 10%;
 }
 .ft-one {
     display: flex;
@@ -280,6 +289,8 @@ footer ul {
 .dropdown-close{
     display: none;
 }
+/* End - Footer */
+
 
 @media screen and (max-width: 765px){
     header {
