@@ -87,7 +87,7 @@ span, p {
     background-color: var(--veryLightGray);
     display: grid;
     grid-template-columns: 40% 60%;
-    height: 90vh;
+    height: 85vh;
     justify-content: center;
     align-items: center;
     position: relative;
