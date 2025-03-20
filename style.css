@@ -97,7 +97,7 @@ span, p {
     display: flex;
     flex-direction: column;
     width: 85%;
-    transform: translate(25%,0%);
+    transform: translate(25%,-2%);
 }
 
 .request_invite_btn {
@@ -136,14 +136,14 @@ span, p {
 
 .mockup-img {
     width: 80%;
-    transform: translate(180px,-50px);
+    transform: translate(180px,-75px);
 }
 /* END- Details Section */
 
 /* START- Benifits Section */
 .reason {
     background-color: var(--lightGrayishBlue);
-    padding: 10%;
+    padding: 7% 10%;
 }
 .benefit {
     position: relative;
@@ -182,7 +182,7 @@ span, p {
 
 /* START- Articles Section */
 .latest-articles {
-    padding: 10%;
+    padding: 7% 10%;
     background: var(--veryLightGray);
 }
 
@@ -238,7 +238,7 @@ footer {
     background-color: hsl(233, 26%, 24%);
     display: flex;
     justify-content: space-between;
-    padding: 1% 10%;
+    padding: 3% 10%;
 }
 .ft-one {
     display: flex;
