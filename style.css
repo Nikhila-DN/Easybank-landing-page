@@ -34,7 +34,7 @@ a {
 
 header {
     background-color: var(--white);
-    padding: 1% 10%;
+    padding:  0.4rem 6.8rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
